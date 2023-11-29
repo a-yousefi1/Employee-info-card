@@ -27,9 +27,26 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
-    top: 35%;
+    top: 50%;
 }
 
 .review:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.centered-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-container img{
+    width: 20%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
