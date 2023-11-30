@@ -9,6 +9,10 @@ h1{
     transform: translate(-50%, -50%);
 }
 
+button{
+    color: rgb(0, 148, 148);
+}
+
 .centered-object{
     position: absolute;
     left: 50%;
@@ -16,7 +20,7 @@ h1{
 }
 
 .underline{
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid rgb(0, 148, 148);
     display: inline;
     top: 23%;
     padding-left: 70px;
@@ -69,7 +73,7 @@ h1{
 }
 
 .underline{
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid rgb(0, 148, 148);
     display: inline;
     top: 23%;
     padding-left: 70px;
@@ -81,7 +85,7 @@ h1{
     transition: 0.3s;
     width: 35%;
     top: 55%;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .review:hover{
@@ -106,6 +110,29 @@ h1{
     align-items: center;
 }
 
+
+#job{
+    color: rgb(0, 148, 148);
+}
+
+
 .surprise-button{
-    top: 150%;
+    top: 94%;
+
+}
+
+.surprise-button button{
+    border-radius: 5px;
+    border-color: rgb(0, 148, 148);
+}
+
+#next{
+    padding-top: 10px;
+    border: none;
+    background-color: white;
+}
+
+#previous{
+    border: none;
+    background-color: white;
 }
