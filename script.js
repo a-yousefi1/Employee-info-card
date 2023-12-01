@@ -1,3 +1,4 @@
+// employees info
 var employees = [
   {
     image: "./images/employee-1.png",
@@ -28,6 +29,7 @@ var employees = [
 
 var currentIndex = 0;
 
+// showing employee's info
 function displayEmployeeInfo() {
   let employee_picture = document.getElementById("employee-picture");
   let author =  document.getElementById("author");
@@ -40,5 +42,30 @@ function displayEmployeeInfo() {
   console.log(employee_picture);
 }
 
+// Previous button
+document.getElementById("previous").addEventListener("click", function () {
+  if (currentIndex > 0) {
+    currentIndex--;
+  } else {
+    currentIndex = employees.length - 1;
+  }
+  displayEmployeeInfo();
+});
+
+// next button
+document.getElementById("next").addEventListener("click", function () {
+  if (currentIndex < employees.length - 1) {
+    currentIndex++;
+  } else {
+    currentIndex = 0;
+  }
+  displayEmployeeInfo();
+});
+
+// random button
+document.getElementById("random").addEventListener("click", function () {
+  currentIndex = Math.floor(Math.random() * employees.length);
+  displayEmployeeInfo();
+});
 
 displayEmployeeInfo();
