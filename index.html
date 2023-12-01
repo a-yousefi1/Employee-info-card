@@ -3,37 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reviews</title>
+    <title>Employees</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- title -->
     <div class="title">
-      <h1>Our Reviews</h1>
+      <h1>Our Employees</h1>
       <div class="underline centered-object"></div>
     </div>
     <!-- Review -->
     <article class="review centered-object">
-      <div class="img-container">
-        <img class="centered-article" src="./images/employee-1.png" alt="" />
+      <div class="img-container" id="employee-picture">
+        <img
+          class="centered-article"
+          id="employee-picture"
+          src="./images/employee-1.png"
+          alt=""
+        />
       </div>
-      <h4 id="author" class="centered-article">Amir Hossein</h4>
+      <h4 id="author" class="centered-article">Melika Jabbari</h4>
       <p id="job" class="centered-article">Front-end Developer</p>
       <p id="info" class="centered-article">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem omnis
-        animi pariatur assumenda ipsam neque voluptas dignissimos enim possimus,
-        eius alias illo. Sed beatae quo quaerat laudantium, iusto velit aut!
+        Hi, I'm a front-end developer. I specialize in creating beautiful and
+        efficient websites using various programming languages and frameworks.",
       </p>
 
       <!-- prev next buttons -->
       <div class="button-container centered-object">
-        <button onclick="" id="previous">&laquo; Previous</button>
-        <button onclick="" id="next">Next &raquo;</button>
+        <button id="previous">&laquo; Previous</button>
+        <button id="next">Next &raquo;</button>
       </div>
 
       <!-- surprise button -->
       <div class="surprise-button centered-object">
-        <button>Surprise Me</button>
+        <button id="random">Surprise Me</button>
       </div>
     </article>
     <script src="./script.js"></script>
