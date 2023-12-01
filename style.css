@@ -1,22 +1,18 @@
-
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 255, 255, 0.142);
 }
 
 h1{
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
-}
-
-button{
-    color: rgb(0, 148, 148);
 }
 
 .centered-object{
     position: absolute;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
 }
 
@@ -24,7 +20,7 @@ button{
     border-bottom: 3px solid rgb(0, 148, 148);
     display: inline;
     top: 23%;
-    padding-left: 70px;
+    padding-left: 60px;
 
 }
 
@@ -33,7 +29,9 @@ button{
     transition: 0.3s;
     width: 35%;
     top: 55%;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .review:hover{
@@ -44,12 +42,12 @@ button{
     text-align: center;
 }
 
-.img-container img{
+.profile-header img{
     width: 20%;
     padding-top: 10px;
 }
 
-.img-container {
+.profile-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,22 +60,45 @@ button{
 
 
 .surprise-button{
-    top: 94%;
+    top: 91%;
+    
 
 }
 
-.surprise-button button{
-    border-radius: 5px;
-    border-color: rgb(0, 148, 148);
+button{
+    background-color: #4070F4;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 #next{
-    padding-top: 10px;
-    border: none;
-    background-color: white;
+    font-size: 20px;
 }
 
 #previous{
-    border: none;
-    background-color: white;
+    font-size: 20px;
 }
+
+.profile-header {
+    background-color: #4070F4;
+    height: 80px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.profile-header img {
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+  
+
+  
